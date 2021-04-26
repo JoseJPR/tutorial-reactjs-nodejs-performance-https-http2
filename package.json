@@ -1,0 +1,40 @@
+{
+  "name": "tutorial-reactjs-nodejs-performance-https-http2",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "back",
+    "front",
+    "performance"
+  ],
+  "scripts": {
+    "server-https": "node ./back/src/https.js",
+    "server-http2": "node ./back/src/http2.js",
+    "performance-https": "node ./performance/src/index.js https",
+    "performance-http2": "node ./performance/src/index.js http2",
+    "build": "cd front && npm run build",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJPR/tutorial-reactjs-nodejs-performance-https-http2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseJPR/tutorial-reactjs-nodejs-performance-https-http2/issues"
+  },
+  "homepage": "https://github.com/JoseJPR/tutorial-reactjs-nodejs-performance-https-http2#readme",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1"
+  }
+}

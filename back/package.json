@@ -1,0 +1,13 @@
+{
+  "name": "back-app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start-https": "node ./src/https.js",
+    "start-http2": "node ./src/http2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

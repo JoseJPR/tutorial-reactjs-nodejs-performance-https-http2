@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+
+# test
+**/*.test.js
+**/*Tests.js
+
+# temp files
+/build
